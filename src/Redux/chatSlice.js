@@ -1,3 +1,4 @@
+
 import { createSlice } from '@reduxjs/toolkit';
 
 export const chatSlice = createSlice({
@@ -17,6 +18,4 @@ export const chatSlice = createSlice({
 });
 
 export const { receiveMessage, setOnlineUsers } = chatSlice.actions;
-
-
 export default chatSlice.reducer;
