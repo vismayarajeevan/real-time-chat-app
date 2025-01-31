@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { receiveMessage, setOnlineUsers } from '../redux/chatSlice';
+import { receiveMessage, setOnlineUsers } from '../Redux/chatSlice';
 import socket from '../utils/socketClient';
 
 const ChatPage = () => {

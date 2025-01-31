@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { login } from "../redux/authenticationSlice";  // Import the login action
+import { login } from "../Redux/authenticationSlice";  // Import the login action
 import login_img from "../assets/login.jpg";
 
 const Login = () => {
